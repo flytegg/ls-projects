@@ -1,0 +1,11 @@
+name: ProximityChat
+version: '${project.version}'
+main: cc.stormlabs.proximitychat.ProximityChat
+api-version: 1.19
+
+commands:
+  gmp:
+    description: "Get yourself a megaphone for increased talking range!"
+    permission: "proximitychat.megaphone"
+  gc:
+    description: "Talk with the whole server from anywhere!"
