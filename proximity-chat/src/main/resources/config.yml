@@ -1,0 +1,5 @@
+talk-range: 20 # how far a player can chat in blocks
+megaphone-range: 30 # in blocks (value gets added to the default talk range!)
+
+show-distance: true # whether you want to show how far away the player is or not (true/false)
+allow-global-chat: true # whether you want to allow the players to use the global chat or not (true/false)
