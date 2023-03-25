@@ -1,0 +1,24 @@
+#Project tutorial for learn spigot
+#Welcome plugin
+
+FirstJoin:
+  Toggle: true #Toggle mode for sending players message for first join
+  Message: '#025b88Welcome to our lovely server for the very first time!' #usage of hex colours
+
+Join:
+  Toggle: true #Toggle mode for sending players message for first join
+  Message: '#6FE522Welcome to our lovely server!' #usage of hex colours
+
+Title:
+  Toggle: true #toggle for title on join
+  Message: "#226FE5Welcome to LearnSpigot"
+  Subtitle: "#AA22E5Feel free to ask for help!"
+
+Firework:
+  toggle: true #toggle
+
+Broadcast:
+  toggle: true #toggle
+  #{player} for player name
+  message: '#DA1551{player} has joined our server!'
+
