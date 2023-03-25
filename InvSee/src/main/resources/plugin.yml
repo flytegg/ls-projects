@@ -1,0 +1,7 @@
+name: InvSee
+version: '${version}'
+main: com.panav.Invsee.Main
+api-version: 1.19
+commands:
+  inv:
+    description: Check inventory of another player
