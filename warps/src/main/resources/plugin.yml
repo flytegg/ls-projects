@@ -1,0 +1,15 @@
+name: Warps
+version: '${project.version}'
+main: me.snat.warps.Main
+api-version: 1.19
+commands:
+  warp:
+    description: "Teleport to a set warp."
+  setwarp:
+    description: "Set a Warp."
+    permission: "warps.set"
+    permission-message: "You have no permission!"
+  delwarp:
+    description: "Delete a warp."
+    permission: "warps.delete"
+    permission-message: "You have no permission!"
