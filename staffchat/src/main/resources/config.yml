@@ -1,0 +1,5 @@
+#Use the following placeholders:
+#{PLAYER} - Gets the display name of the player
+#{MESSAGE} - Gets the message of the player
+
+message-layout: "&eSTAFFCHAT ({PLAYER}) &7>> &f{MESSAGE}"
