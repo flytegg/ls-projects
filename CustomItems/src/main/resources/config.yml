@@ -1,0 +1,13 @@
+items:
+  xbow:
+    material: 'BOW'
+    amount: 2
+    meta:
+      displayname: '&2xbow'
+      lore:
+        - '&2bow'
+        - '&2but with x'
+      unbreakable: true
+
+  gun:
+    material: 'BONE'

@@ -1,0 +1,9 @@
+name: Customitems
+version: ${project.version}
+main: com.pzyc0.customitems.Customitems
+api-version: 1.16
+commands:
+  getitem:
+
+  saveitem:
+
