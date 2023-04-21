@@ -1,0 +1,16 @@
+name: GrapplingHooks
+version: '${project.version}'
+main: me.superpenguin.grapplinghooks.GrapplingHooksMain
+api-version: 1.19
+authors: [SuperPenguin]
+libraries: [org.jetbrains.kotlin:kotlin-stdlib:1.8.20]
+
+commands:
+
+  grapplinghook:
+    aliases: [gh]
+
+permissions:
+
+  grapplinghook.give:
+    default: op
