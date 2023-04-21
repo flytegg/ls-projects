@@ -3,7 +3,10 @@ version: '${project.version}'
 main: me.superpenguin.grapplinghooks.GrapplingHooksMain
 api-version: 1.19
 authors: [SuperPenguin]
+
+# Kotlin Only {
 libraries: [org.jetbrains.kotlin:kotlin-stdlib:1.8.20]
+# }
 
 commands:
 
