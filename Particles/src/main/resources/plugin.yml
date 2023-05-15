@@ -1,9 +1,0 @@
-name: Test
-version: '${project.version}'
-main: com.tqqn.particles.Particles
-api-version: 1.16
-commands:
-  particle:
-    description: Particle Menu Command
-    usage: /<command>
-    permission: lobbyplugin.particles

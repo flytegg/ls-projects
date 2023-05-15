@@ -1,8 +1,0 @@
-name: StaffChat
-version: '${project.version}'
-main: me.snat.staffchat.Main
-api-version: 1.19
-commands:
-  staffchat:
-    permission: "staffchat.use"
-    permission-message: "You do not have permission to use this command!"

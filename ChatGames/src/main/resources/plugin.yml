@@ -1,7 +1,0 @@
-name: ChatGames
-version: '${version}'
-main: ls.project.chatgames.Main
-api-version: 1.19
-commands:
-  games:
-    description: chat games

@@ -1,4 +1,0 @@
-name: WelcomeManager
-version: '${version}'
-main: ls.project.welcome.Main
-api-version: 1.19
