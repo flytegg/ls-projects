@@ -1,0 +1,34 @@
+# Please make sure to enable all intents for the discord bot in the discord developer portal
+discord:
+  token: "token" # Discord bot token
+  command-channel: "" # The discord ID of the channel where the command should be ran. Blank if none
+  role-given: "" # The id of the role given to users who verify. Leave blank to not give a role
+  role-removed: "" # The id of the role removed from users who unverify. Leave blank to not remove a role
+  sync-name: true # If set to True, discord name will be identical to minecraft name.
+
+code-timeout: 60 # The time in seconds to wait for the code. If the code is not received in this time, the code will be expired
+code-length: 12 # The length of the code.
+code-numbers-only: false # If true, the code will only contain numbers. If false, the code will contain numbers and letters.
+should-code-be-case-sensitive: false # If the code should be case-sensitive or not.
+should-minecraft-chat-copyable: true # If the code should be copyable in the Minecraft chat.
+
+
+Minecraft:
+  #command to execute once the player has successfully verified
+  #{player} to get the player
+  Command:
+    - give {player} diamond
+
+messages:
+
+  # This message fires once the player's timer is at 0 aka expired.
+  code-expired: "&cYou ran out of time to enter the verification code! Please retry."
+  has-code: "&cYou already have a verification code! Please use it or wait for it to expire before requesting a new one."
+  code-invalid: "Failed to verify you! Are you sure you entered the right code?" # This message fires when the code is invalid.
+  verification-successful-mc: "&aYou have successfully verified yourself!" # This message fires when the code is valid.
+  verification-successful-discord: "You have successfully verified yourself!" # This message fires when the code is valid.
+  # Placeholders:
+  # {code} - The code
+  # {time} - The time left
+  code-generated: "&aYour verification code is: &e{code}&a. Please head over to our Discord server and type /verify &e{code} You have &c{time} &aSeconds left!" # This message fires when the code is generated.
+
