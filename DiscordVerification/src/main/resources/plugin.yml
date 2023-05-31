@@ -1,0 +1,11 @@
+name: DiscordVerifier
+version: '${version}'
+main: xyz.alonefield.discordverifier.DiscordVerifier
+authors: [ Tofaa ]
+description: A verifier bridge between Discord and your Lobby
+website: https://alonefield.xyz
+
+commands:
+  verify:
+    description: Verify your minecraft account with Discord
+    aliases: [discordverify, discordverifier, discordverification, dcverify]
