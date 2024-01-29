@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BlockShuffle/BlockShuffle.iml" filepath="$PROJECT_DIR$/BlockShuffle/BlockShuffle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChatGames/ChatGames.iml" filepath="$PROJECT_DIR$/ChatGames/ChatGames.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomItems/CustomItems.iml" filepath="$PROJECT_DIR$/CustomItems/CustomItems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscordVerification/DiscordVerification.iml" filepath="$PROJECT_DIR$/DiscordVerification/DiscordVerification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FreezeWand/FreezeWand.iml" filepath="$PROJECT_DIR$/FreezeWand/FreezeWand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GrapplingHooks/GrapplingHooks.iml" filepath="$PROJECT_DIR$/GrapplingHooks/GrapplingHooks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InvSee/InvSee.iml" filepath="$PROJECT_DIR$/InvSee/InvSee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Particles/Particles.iml" filepath="$PROJECT_DIR$/Particles/Particles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProximityChat/ProximityChat.iml" filepath="$PROJECT_DIR$/ProximityChat/ProximityChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StaffChat/StaffChat.iml" filepath="$PROJECT_DIR$/StaffChat/StaffChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Warps/Warps.iml" filepath="$PROJECT_DIR$/Warps/Warps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WelcomeManager/WelcomeManager.iml" filepath="$PROJECT_DIR$/WelcomeManager/WelcomeManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/projects.iml" filepath="$PROJECT_DIR$/.idea/projects.iml" />
+    </modules>
+  </component>
+</project>
