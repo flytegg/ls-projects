@@ -18,12 +18,15 @@ public final class ChatColors extends JavaPlugin {
     private PlayerManager playerManager;
     private HashMap<Material, Colors> loadedColors;
 
+    private static int colorSize;
+
     @Override
     public void onEnable() {
         this.playerManager = new PlayerManager(this);
         loadColors();
         registerListeners();
         registerCommands();
+        colorSize = loadedColors.size();
     }
 
     @Override
@@ -36,6 +39,10 @@ public final class ChatColors extends JavaPlugin {
         for (Colors color : Colors.values()) {
             loadedColors.put(color.getGuiMaterial(), color);
         }
+    }
+
+    public static int getColorsSize() {
+        return colorSize;
     }
 
     private void registerListeners() {

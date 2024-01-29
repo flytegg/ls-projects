@@ -1,5 +1,6 @@
 package com.tqqn.chatcolors.gui;
 
+import com.tqqn.chatcolors.ChatColors;
 import com.tqqn.chatcolors.colors.Colors;
 import com.tqqn.chatcolors.data.PluginPlayer;
 import com.tqqn.chatcolors.utils.ChatUtils;
@@ -18,8 +19,19 @@ public class ChatColorGUI {
 
     public ChatColorGUI(PluginPlayer player) {
         this.player = player;
-        this.inventory = Bukkit.createInventory(null, Colors.NONE.getSize(), ChatUtils.format("<red>ChatColor menu"));
+
+        this.inventory = Bukkit.createInventory(null, getFinalInventorySize(ChatColors.getColorsSize()), ChatUtils.format("<red>ChatColor menu"));
         initInventoryItems();
+    }
+
+    private int getFinalInventorySize(int size) {
+        if (size <= 9) return 9;
+        if (size <= 18) return 18;
+        if (size <= 27) return 27;
+        if (size <= 36) return 36;
+        if (size <= 45) return 45;
+        if (size <= 54) return 54;
+        return 0;
     }
 
     private void initInventoryItems() {

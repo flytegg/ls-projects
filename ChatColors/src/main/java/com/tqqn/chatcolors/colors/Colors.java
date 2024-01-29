@@ -11,12 +11,10 @@ public enum Colors {
     private final String color;
     private final String prettyName;
     private final Material guiMaterial;
-    private final int size;
     Colors(String color, String prettyName, Material guiMaterial) {
         this.color = color;
         this.prettyName = prettyName;
         this.guiMaterial = guiMaterial;
-        this.size = Colors.values().length;
     }
 
     public String getColor() {
@@ -31,8 +29,5 @@ public enum Colors {
         return guiMaterial;
     }
 
-    public int getSize() {
-        return size;
-    }
 }
 

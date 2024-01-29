@@ -39,6 +39,7 @@ public class PlayerManager {
     public void openInventory(PluginPlayer pluginPlayer) {
         openInventories.put(pluginPlayer.getUuid(), new ChatColorGUI(pluginPlayer));
         openInventories.get(pluginPlayer.getUuid()).openInventory();
+        new ChatColorGUI(pluginPlayer).openInventory();
     }
 
     public void closeInventory(PluginPlayer pluginPlayer) {

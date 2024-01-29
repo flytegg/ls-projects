@@ -22,7 +22,7 @@ public class InteractInventoryListener implements Listener {
     @EventHandler
     public void onInteract(InventoryClickEvent event) {
         if (!(event.getWhoClicked() instanceof Player player)) return;
-        if (!(event.getView().getOriginalTitle().equalsIgnoreCase("ChatColor menu"))) return;
+        if (!(event.getView().getOriginalTitle().equalsIgnoreCase("§cChatColor menu"))) return;
         event.setCancelled(true);
 
         if (event.getCurrentItem() == null || event.getCurrentItem().getType() == Material.AIR) return;

@@ -18,9 +18,7 @@ public class ChooseChatColorCommand implements CommandExecutor {
     @Override
     public boolean onCommand(@NotNull CommandSender commandSender, @NotNull Command command, @NotNull String s, @NotNull String[] strings) {
         if (!(commandSender instanceof Player player)) return true;
-
-        ChatColorGUI chatColorGUI = new ChatColorGUI(playerManager.getPluginPlayer(player.getUniqueId()));
-        chatColorGUI.openInventory();
+        playerManager.openInventory(playerManager.getPluginPlayer(player.getUniqueId()));
         return true;
     }
 }
